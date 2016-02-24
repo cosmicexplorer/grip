@@ -119,12 +119,6 @@
         {% else %}
           <div class="repository-content context-loader-container">
             <div id="readme" class="boxed-group flush clearfix announce instapaper_body md">
-              {% if not user_content and title %}
-                <h3>
-                  <span class="octicon octicon-book"></span>
-                  {{ title }}
-                </h3>
-              {% endif %}
               <div id="grip-content" class="markdown-body entry-content">
                 {{ content|safe }}
               </div>
