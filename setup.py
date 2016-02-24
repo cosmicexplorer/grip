@@ -32,7 +32,7 @@ def read(filename):
 
 
 setup(
-    name='grip',
+    name='grip-no-header',
     version='4.1.0',
     description='Render local readme files before sending off to GitHub.',
     long_description=__doc__,
